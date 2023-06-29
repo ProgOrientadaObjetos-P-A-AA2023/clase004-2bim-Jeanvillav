@@ -20,6 +20,30 @@ public class TiposTransporte {
     public void establecerTransporteTaxi(TransporteTaxi taxi){
         ttaxi = taxi;
     }
+
+    public TransporteTransvia getTransvia() {
+        return transvia;
+    }
+
+    public void setTransvia(TransporteTransvia transvia) {
+        this.transvia = transvia;
+    }
+
+    public TransporteAereo getAereo() {
+        return aereo;
+    }
+
+    public void setAereo(TransporteAereo aereo) {
+        this.aereo = aereo;
+    }
+
+    public TransporteMaritimo getMaritimo() {
+        return maritimo;
+    }
+
+    public void setMaritimo(TransporteMaritimo maritimo) {
+        this.maritimo = maritimo;
+    }
     
     public void establecerTransporteBus(TransporteBus bus){
         ttbus = bus;
